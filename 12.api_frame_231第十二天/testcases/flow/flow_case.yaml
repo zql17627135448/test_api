@@ -1,0 +1,22 @@
+-
+  feature: 流程模块
+  story: 流程接口名称1
+  title: 流程用例标题1
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "user/login"}
+    json: {"accounts": "baili","pwd": "baili123","verify": "rib5","type": "username"}
+  validate: null
+-
+  feature: 流程模块
+  story: 流程接口名称2
+  title: 流程用例标题2
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "order/index"}
+    json: {"page": 1,"keywords": "","status": "-1","is_more": 1}
+  validate: null

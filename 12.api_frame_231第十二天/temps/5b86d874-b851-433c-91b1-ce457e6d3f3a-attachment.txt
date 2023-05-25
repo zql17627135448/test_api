@@ -1,0 +1,7 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：模块>登陆接口>验证正常返回登陆接口数据
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求method参数：get
+INFO     commons.request_util:request_util.py:31 请求params参数：{'appid': 'wx8a9de038e93f77ab', 'grant_type': 'client_credential', 'secret': '8326fc915928dee3165720c910effb86', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：https://api.weixin.qq.com/cgi-bin/token
+INFO     commons.request_util:request_util.py:35 响应正文：{'access_token': '68_1XGv1aswrDb_1My98f_LJDcHHt6CI83IVvQSQc_6xDXddWeqbObBQQ8O5TIjsaYSmt9x4i0G7wLmEnekQT8PEa2dd9Xw9Xu78N_fRkXte4ZrAD1iUJDWmaQjG0wCDLfAJAYZH', 'expires_in': 7200}
+INFO     commons.request_util:main_util.py:35 接口请求成功!

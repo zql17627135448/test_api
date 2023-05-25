@@ -1,0 +1,5 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：模块>phpwind首页接口>验证正常返回登陆接口数据
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求url参数：http://47.107.116.139/phpwind/
+INFO     commons.request_util:request_util.py:38 响应正文：太长暂不显示
+INFO     commons.request_util:main_util.py:35 接口请求成功!

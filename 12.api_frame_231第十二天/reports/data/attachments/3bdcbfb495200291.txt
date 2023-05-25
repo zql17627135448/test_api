@@ -1,0 +1,6 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：加密模块>MD5加密接口>验证正常返回MD5加密接口数据
+INFO     commons.request_util:request_util.py:31 请求data参数：{'password': '202cb962ac59075b964b07152d234b70', 'username': '21232f297a57a5a743894a0e4a801fc3'}
+INFO     commons.request_util:request_util.py:31 请求method参数：POST
+INFO     commons.request_util:request_util.py:31 请求url参数：http://101.34.221.219:5000/md5login
+INFO     commons.request_util:request_util.py:35 响应正文：{'error_code': 0, 'message': 'MD5加密登陆成功！'}
+WARNING  commons.request_util:main_util.py:38 没有断言!

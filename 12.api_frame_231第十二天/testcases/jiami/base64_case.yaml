@@ -1,0 +1,14 @@
+-
+  feature: 加密模块
+  story: Base64加密接口
+  title: 验证正常返回Base64加密接口数据
+  request:
+    method: POST
+    url: ${get_base_url(jiami)}/base64login
+    data:
+      username: ${base64_encode(admin)}
+      password: ${base64_encode(123)}
+  validate:
+    contains:
+      断言返回结果中包含"登陆成功": [json,"登陆成功"]
+

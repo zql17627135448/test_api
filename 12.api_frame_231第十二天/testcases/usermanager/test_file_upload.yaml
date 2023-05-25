@@ -1,0 +1,17 @@
+-
+  feature: 文件上传模块
+  story: 文件上传接口
+  title: 验证正常返回文件上传接口数据
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/media/uploadimg
+    headers: null
+    params:
+      access_token: ${read_extract(access_token)}
+      csrf_token: ${read_extract(csrf_token)}
+      expires_in: ${read_extract(expires_in)}
+      times: ${get_times()}
+    files:
+      media: "E:\\shu.png"
+  validate: null
+

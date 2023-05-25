@@ -1,0 +1,12 @@
+-
+  feature: 模块
+  story: 首页接口
+  title: 验证正常返回首页数据
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params:
+      s: index/index
+  validate: null
+

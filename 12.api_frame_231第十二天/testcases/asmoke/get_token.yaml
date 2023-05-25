@@ -1,0 +1,26 @@
+-
+  feature: 模块
+  story: 登陆接口
+  title: 验证正常返回登陆接口数据
+  request:
+    method: get
+    url: ${get_base_url(gzh)}/cgi-bin/token
+    headers: null
+    params:
+      "grant_type": "client_credential"
+      "appid": "wx8a9de038e93f77ab"
+      "secret": "8326fc915928dee3165720c910effb86"
+  extract:
+    access_token: [json,'$.access_token',0]
+    expires_in: [json,'$.expires_in',0]
+  validate:
+    equals:
+      断言status_code=200: [status_code,200]
+      断言expires_in=7200: ["${read_extract(expires_in)}",7200]
+    contains:
+      断言包含expires_in: [json,expires_in]
+      断言包含access_token: [text,access_token]
+    #db_equals: [text,"select email from pw_user where username='admin'"]
+    db_contains:
+      断言返回结果中包括有sql查询的结果: [text,"select email from pw_user where username='admin'"]
+

@@ -1,0 +1,8 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：文件上传模块>文件上传接口>验证正常返回文件上传接口数据
+INFO     commons.request_util:request_util.py:31 请求files参数：{'media': <_io.BufferedReader name='E:\\shu.png'>}
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求params参数：{'access_token': '68_1XGv1aswrDb_1My98f_LJDcHHt6CI83IVvQSQc_6xDXddWeqbObBQQ8O5TIjsaYSmt9x4i0G7wLmEnekQT8PEa2dd9Xw9Xu78N_fRkXte4ZrAD1iUJDWmaQjG0wCDLfAJAYZH', 'csrf_token': '928b8a5bfeed0b47', 'expires_in': 7200, 'times': 1682689674, 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO     commons.request_util:request_util.py:38 响应正文：太长暂不显示
+WARNING  commons.request_util:main_util.py:38 没有断言!

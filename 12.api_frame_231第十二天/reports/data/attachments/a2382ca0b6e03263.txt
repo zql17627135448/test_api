@@ -1,0 +1,6 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：加密模块>Base64加密接口>验证正常返回Base64加密接口数据
+INFO     commons.request_util:request_util.py:31 请求data参数：{'password': 'MTIz', 'username': 'YWRtaW4='}
+INFO     commons.request_util:request_util.py:31 请求method参数：POST
+INFO     commons.request_util:request_util.py:31 请求url参数：http://101.34.221.219:5000/base64login
+INFO     commons.request_util:request_util.py:35 响应正文：{'error_code': 0, 'message': 'Base64加密登陆成功！'}
+INFO     commons.request_util:main_util.py:35 接口请求成功!

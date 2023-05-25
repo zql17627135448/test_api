@@ -1,0 +1,17 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：流程模块>流程接口名称1>流程用例标题1
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求json参数：{'accounts': 'baili', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求params参数：{'s': 'user/login', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：http://101.34.221.219:8010/api.php
+INFO     commons.request_util:request_util.py:35 响应正文：{'msg': '登录成功', 'code': 0, 'data': {'id': '548', 'alipay_openid': '', 'weixin_openid': '', 'weixin_unionid': '', 'weixin_web_openid': '', 'baidu_openid': '', 'toutiao_openid': '', 'qq_openid': '', 'qq_unionid': '', 'status': '0', 'token': '74a5e9380eb531a07f8a08c1f042f285', 'username': 'baili', 'nickname': 'shuo', 'mobile': '', 'email': '', 'gender': '1', 'avatar': 'http://101.34.221.219:8010/static/index/default/images/default-user-avatar.jpg', 'province': '', 'city': '', 'birthday': '1670774400', 'address': '', 'integral': '0', 'locking_integral': '0', 'referrer': '0', 'is_delete_time': '0', 'add_time': '1654095202', 'upd_time': '1682689673', 'add_time_text': '2022-06-01 22:53:22', 'upd_time_text': '2023-04-28 21:47:53', 'gender_text': '女', 'birthday_text': '2022-12-12', 'mobile_security': '', 'email_security': '', 'user_name_view': 'baili', 'is_mandatory_bind_mobile': 0}}
+WARNING  commons.request_util:main_util.py:38 没有断言! 
+
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：流程模块>流程接口名称2>流程用例标题2
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求json参数：{'is_more': 1, 'keywords': '', 'page': 1, 'status': '-1'}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求params参数：{'s': 'order/index', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：http://101.34.221.219:8010/api.php
+INFO     commons.request_util:request_util.py:38 响应正文：太长暂不显示
+WARNING  commons.request_util:main_util.py:38 没有断言!

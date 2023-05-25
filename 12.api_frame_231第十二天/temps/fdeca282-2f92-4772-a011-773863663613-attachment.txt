@@ -1,0 +1,8 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：数据驱动模块>数据驱动接口名称>用户名有误
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求json参数：{'accounts': 'admin', 'pwd': None, 'type': 'username'}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求params参数：{'s': 'user/login', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：http://101.34.221.219:8010/api.php
+INFO     commons.request_util:request_util.py:35 响应正文：{'msg': '密码格式 6~18 个字符之间', 'code': -1, 'data': ''}
+INFO     commons.request_util:main_util.py:35 接口请求成功!

@@ -1,0 +1,7 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：外卖模块>登陆接口>用例名称
+INFO     commons.request_util:request_util.py:31 请求headers参数：{'Content-Type': 'application/json'}
+INFO     commons.request_util:request_util.py:31 请求json参数：{'email': 'admin123@163.com', 'password': 'admin123'}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求url参数：https://api.tttt.one/rest-v2/login/access_token
+INFO     commons.request_util:request_util.py:35 响应正文：{'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODMzODA4NzcsInN1YiI6IjMifQ.PxDOc26y-5gLTpnvev4eFTVv2A_i4KbjUaEvUYBTyQk', 'token_type': 'bearer'}
+WARNING  commons.request_util:main_util.py:38 没有断言!

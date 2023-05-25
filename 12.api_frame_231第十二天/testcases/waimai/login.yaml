@@ -1,0 +1,14 @@
+-
+  feature: 外卖模块
+  story: 登陆接口
+  title: 用例名称
+  request:
+    method: post
+    url: https://api.tttt.one/rest-v2/login/access_token
+    headers:
+      Content-Type: application/json
+    json: {"password": "admin123","email": "admin123@163.com"}
+  extract:
+    token: [json,$.access_token,0]
+  validate: null
+

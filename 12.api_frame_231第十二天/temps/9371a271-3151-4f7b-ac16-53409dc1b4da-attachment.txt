@@ -1,0 +1,6 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：外卖模块>查询任务列表接口>用例名称
+INFO     commons.request_util:request_util.py:31 请求headers参数：{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODMzODA4NzcsInN1YiI6IjMifQ.PxDOc26y-5gLTpnvev4eFTVv2A_i4KbjUaEvUYBTyQk', 'Content-Type': 'application/json'}
+INFO     commons.request_util:request_util.py:31 请求method参数：get
+INFO     commons.request_util:request_util.py:31 请求url参数：https://api.tttt.one/rest-v2/todo
+INFO     commons.request_util:request_util.py:35 响应正文：{'items': [], 'total': 0, 'page': 1, 'size': 50}
+WARNING  commons.request_util:main_util.py:38 没有断言!

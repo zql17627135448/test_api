@@ -1,0 +1,18 @@
+-
+  feature: 数据驱动模块
+  story: 数据驱动接口名称
+  title: $ddt{title}
+  request:
+    method: post
+    url: ${get_base_url(shopxo)}/api.php
+    headers: null
+    params: {"s": "user/login"}
+    json: {"accounts": "$ddt{accounts}","pwd": "$ddt{pwd}","type": "$ddt{type}"}
+  parametrize:
+    - ["title","accounts","pwd","type","assert_str"]
+    - ["登陆成功","baili","baili123","username","登录成功"]
+    - ["密码有误","baili","123","username","密码格式 6~18 个字符"]
+    - ["用户名有误","admin","null","username","密码格式 6~18 个字符"]
+  validate:
+    contains:
+      断言返回结果中包含有数据中的值: [text,"$ddt{assert_str}"]

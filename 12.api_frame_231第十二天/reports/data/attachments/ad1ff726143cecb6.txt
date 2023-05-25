@@ -1,0 +1,7 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：模块>登陆接口>验证正常返回登陆接口数据
+INFO     commons.request_util:request_util.py:31 请求data参数：{'back_url': 'http://47.107.116.139/phpwind/', 'csrf_token': '928b8a5bfeed0b47', 'invite': '', 'password': 'baili123', 'username': 'baili'}
+INFO     commons.request_util:request_util.py:31 请求headers参数：{'Accept': 'application/json, text/javascript, /; q=0.01', 'X-Requested-With': 'XMLHttpRequest'}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求url参数：http://47.107.116.139/phpwind/index.php?m=u&c=login&a=dorun
+INFO     commons.request_util:request_util.py:38 响应正文：太长暂不显示
+WARNING  commons.request_util:main_util.py:38 没有断言!

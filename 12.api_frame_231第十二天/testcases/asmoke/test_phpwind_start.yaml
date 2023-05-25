@@ -1,0 +1,13 @@
+-
+  feature: 模块
+  story: phpwind首页接口
+  title: 验证正常返回登陆接口数据
+  request:
+    method: post
+    url: ${get_base_url(php)}/phpwind/
+  extract:
+    csrf_token: [text,'name="csrf_token" value="(.*?)"',0 ]
+  validate:
+    equals:
+      断言状态码为200: [status_code,200]
+

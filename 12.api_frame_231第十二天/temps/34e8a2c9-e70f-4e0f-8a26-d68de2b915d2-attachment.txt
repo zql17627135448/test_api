@@ -1,0 +1,8 @@
+INFO     commons.request_util:main_util.py:21 模块>接口>用例：公众号模块>编辑标签接口>用例名称
+INFO     commons.request_util:request_util.py:31 请求headers参数：None
+INFO     commons.request_util:request_util.py:31 请求json参数：{'tag': {'id': 134, 'name': '广东人1682689674'}}
+INFO     commons.request_util:request_util.py:31 请求method参数：post
+INFO     commons.request_util:request_util.py:31 请求params参数：{'access_token': '68_1XGv1aswrDb_1My98f_LJDcHHt6CI83IVvQSQc_6xDXddWeqbObBQQ8O5TIjsaYSmt9x4i0G7wLmEnekQT8PEa2dd9Xw9Xu78N_fRkXte4ZrAD1iUJDWmaQjG0wCDLfAJAYZH', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:31 请求url参数：https://api.weixin.qq.com/cgi-bin/tags/update
+INFO     commons.request_util:request_util.py:35 响应正文：{'errcode': 0, 'errmsg': 'ok'}
+WARNING  commons.request_util:main_util.py:38 没有断言!

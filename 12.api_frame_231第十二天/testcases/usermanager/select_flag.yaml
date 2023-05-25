@@ -1,0 +1,12 @@
+-
+  feature: 公众号模块
+  story: 查询标签接口
+  title: 用例名称
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/tags/get
+    headers: null
+    params:
+      access_token: ${read_extract(access_token)}
+  validate: null
+

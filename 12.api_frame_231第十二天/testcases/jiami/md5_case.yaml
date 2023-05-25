@@ -1,0 +1,12 @@
+-
+  feature: 加密模块
+  story: MD5加密接口
+  title: 验证正常返回MD5加密接口数据
+  request:
+    method: POST
+    url: http://101.34.221.219:5000/md5login
+    data:
+      username: ${md5_encode(admin)}
+      password: ${md5_encode(123)}
+  validate: null
+

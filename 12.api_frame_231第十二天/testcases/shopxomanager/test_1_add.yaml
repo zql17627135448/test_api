@@ -1,0 +1,12 @@
+-
+  feature: 模块
+  story: 登陆接口
+  title: 验证正常返回登陆接口数据
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "order/index"}
+    json: {"page": 1,"keywords": "","status": "-1","is_more": 1}
+  validate: null
+
